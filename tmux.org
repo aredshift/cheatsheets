@@ -1,0 +1,5 @@
+* tmux cheatsheet
+
+A reliable resource https://tmuxcheatsheet.com/
+
+- Attach to a session with name or number: src_bash{tmux a -t $session_id}
