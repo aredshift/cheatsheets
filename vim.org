@@ -1,0 +1,6 @@
+* Moving the cursor
+
+- Move forward until next space: f SPC
+  Move backward until previous space: F SPC
+  This works for any single key
+  [[https://stackoverflow.com/questions/5432837/jump-to-next-white-space][Relevant SO post with alternatives]]
