@@ -1,4 +1,6 @@
 - Reload .spacemacs config: ~SPC f e R~
-  
+- Go to transient zoom mode: ~SPC z x~
+  Note: only affects font size for a buffer
+
 * Dired
 - Enter: ~C-x d~
