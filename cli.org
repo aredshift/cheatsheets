@@ -1,5 +1,12 @@
+* CLI Cheatsheet
+
 - Find all symlinks to a given file
   src_bash{find -L /dir/to/start -samefile /tmp/orig.file}
   [[https://stackoverflow.com/questions/4532241/linux-find-all-symlinks-of-a-given-original-file-reverse-readlink][Source SO Post]]
+- Update a symlink
+  File: src_bash{ln -sf /a/new/path files}
+  Directory: src_bash{ln -sfn /a/new/path dir}
+  [[https://unix.stackexchange.com/a/152000][Source SO Post]]
+
 
 
