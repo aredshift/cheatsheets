@@ -1,0 +1,18 @@
+* aredshift's cheatsheets
+
+When playing the French card game Barouche, there is a saying: "When there's one, there's two."
+
+This phrase is meant to express that if someone holds a card of a given suit in their hand, there is a good chance they'll have another card of the same suit.
+
+I find this saying applies to everyday technical problems as well. I often wonder what an idiomatic solution is to a given problem I'm trying to solve, find the answer on StackOverflow, execute it, and then forget it. Then I inevitably stumble across the same problem again in the future and have to root around for the same SO post.
+
+To that end, I intend for this repository to serve these purposes:
+1. Keeping a record of problems/solutions for the tooling I use so I can:
+   1. Better remember them by writing them down
+   2. Refer to the record if I forget them
+2. Maintaining references to where I found my recorded answers for fun and proper attribution
+3. Sharing my findings and journey with others
+
+This repository is meant mostly to be of use to me and will include idiosyncratic solutions using my keybindings/configuration (though I will try to document the default solution as well where possible). So please do not use this repository as an authoritative resource in any way.
+
+Rather, I invite you to journey with me as I grow to understand the toolchain I use and maybe even feel inspired to create a similar repository for yourself and share it with others.
