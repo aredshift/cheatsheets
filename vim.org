@@ -4,3 +4,13 @@
   Move backward until previous space: F SPC
   This works for any single key
   [[https://stackoverflow.com/questions/5432837/jump-to-next-white-space][Relevant SO post with alternatives]]
+
+
+* Scrolling
+
+** Fast page scrolling
+
+- Full page up: ~C-f~
+- Full page down: ~C-b~
+- Half-page up: ~C-d~
+- Half-page down: ~C-u~
