@@ -14,3 +14,27 @@
 - Full page down: ~C-b~
 - Half-page up: ~C-d~
 - Half-page down: ~C-u~
+
+[[https://stackoverflow.com/questions/54007300/how-to-scroll-faster-in-vim][Relevant SO post]]
+
+** Move screen without moving cursor
+
+- Up: ~C-y~
+- Down: ~C-e~
+
+[[https://stackoverflow.com/questions/54007300/how-to-scroll-faster-in-vim][Relevant SO post]]
+
+** Move to next empty line/paragraph
+
+- Up: ~{~
+- Down: ~}~
+
+[[https://stackoverflow.com/questions/54007300/how-to-scroll-faster-in-vim][Relevant SO post]]
+
+** Jump cursor to top/middle/bottom of screen
+
+- Top: ~H~
+- Middle: ~M~
+- Bottom: ~L~
+
+[[https://stackoverflow.com/questions/54007300/how-to-scroll-faster-in-vim][Relevant SO post]]
