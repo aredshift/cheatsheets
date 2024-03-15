@@ -38,3 +38,14 @@
 - Bottom: ~L~
 
 [[https://stackoverflow.com/questions/54007300/how-to-scroll-faster-in-vim][Relevant SO post]]
+
+* Search & Replace
+
+- Search for a phrase: ~:/phrase~
+  - Navigate to next occurrence: ~n~
+  - Navigate to previous occurrence: ~N~
+- Search & replace first occurrence on a single line: ~:s/phrase/newphrase~
+- Search & replace all occurrences on a single line: ~:s/phrase/newphrase/g~
+- Search & replace all occurrences in buffer: ~:%s/phrase/newphrase/g~
+
+[[https://www.baeldung.com/linux/vim-search-replace][Baeldung article]]
