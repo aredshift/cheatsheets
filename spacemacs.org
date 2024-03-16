@@ -9,3 +9,9 @@
 - Comment selected lines: ~M-;~
 [[https://github.com/redguardtoo/evil-nerd-commenter?tab=readme-ov-file#evilnc-comment-or-uncomment-lines-recommended][evil-nerd-commenter package docs]]
 
+* Org mode
+
+** Tables
+
+- Align/format the table: ~TAB~
+- Convert a region into a table: ~C-c |~
