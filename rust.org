@@ -5,6 +5,7 @@
 *** Types
 
 | Length  | Signed | Unsigned |
+|---------+--------+----------|
 | 8-bit   | i8     | u8       |
 | 16-bit  | i16    | u16      |
 | 32-bit  | i32    | u32      |
@@ -15,6 +16,7 @@
 *** Integer literals
 
 | Number literals | Example     |
+|-----------------+-------------|
 | Decimal         | 98_222      |
 | Hex             | 0xff        |
 | Octal           | 0o77        |
@@ -26,5 +28,6 @@
 *** Types
 
 | Length | Type |
+|--------+------|
 | 32-bit | f32  |
 | 64-bit | f64  |

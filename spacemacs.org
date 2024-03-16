@@ -17,3 +17,4 @@
 
 - Align/format the table: ~TAB~
 - Convert a region into a table: ~C-c |~
+- Add a header row: type (insert-mode) ~|- TAB~
