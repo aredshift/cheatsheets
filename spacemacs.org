@@ -4,3 +4,8 @@
 
 * Dired
 - Enter: ~C-x d~
+
+* Code
+- Comment selected lines: ~M-;~
+[[https://github.com/redguardtoo/evil-nerd-commenter?tab=readme-ov-file#evilnc-comment-or-uncomment-lines-recommended][evil-nerd-commenter package docs]]
+
