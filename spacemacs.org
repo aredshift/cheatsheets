@@ -12,6 +12,8 @@
 * Org mode
 
 ** Tables
+[[https://orgmode.org/manual/Tables.html][Docs: Tables]]
+[[https://orgmode.org/manual/Built_002din-Table-Editor.html][Docs: Table editor]]
 
 - Align/format the table: ~TAB~
 - Convert a region into a table: ~C-c |~
