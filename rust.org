@@ -1,5 +1,17 @@
 * Types
 
+** Scalar types
+
+- ~int~
+- ~float~
+- ~bool~
+- ~char~
+
+** Compound types
+
+- ~tuple~
+- ~array~
+
 ** Integers
 
 *** Types
@@ -31,3 +43,18 @@
 |--------+------|
 | 32-bit | f32  |
 | 64-bit | f64  |
+
+
+** Tuples
+
+- Index like ~tup.idx~ eg. ~t.1~ for the 1th index
+- An empty tuple ~()~ is called a *unit*
+  - Expressions implicitly return a unit if they don't return anything else
+
+* Expressions & Statements
+
+[[https://rust-book.cs.brown.edu/ch03-03-how-functions-work.html#statements-and-expressions]["Rust is an expression-based language"]]
+
+- Statements are instructions that perform some action and do not return a value.
+- Expressions evaluate to a resultant value.
+
