@@ -61,3 +61,9 @@
 "If you add a semicolon to the end of an expression, you turn it into a statement, and it will then not return a value."
 
 
+* Return values
+
+[[https://rust-book.cs.brown.edu/ch03-03-how-functions-work.html#functions-with-return-values]["In Rust, the return value of the function is synonymous with the value of the final expression in the block of the body of a function."]]
+
+[[https://doc.rust-lang.org/std/keyword.return.html][~return~ keyword still exists and is usable]]
+
