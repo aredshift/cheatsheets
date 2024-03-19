@@ -87,3 +87,5 @@ You can return values from loops like so:
 ** Moved heap data principle
 =If a variable x moves ownership of heap data to another variable y, then x cannot be used after the move.=
 
+** Pointer safety principle
+=Data should never be aliased and mutated at the same time.=
