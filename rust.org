@@ -67,3 +67,15 @@
 
 [[https://doc.rust-lang.org/std/keyword.return.html][~return~ keyword still exists and is usable]]
 
+** Returning values from loops
+
+You can return values from loops like so:
+
+#+begin_src rust
+  let result = loop {
+      break 3;
+  }
+
+  println!("The result is {result}") // 3
+#+end_src
+
