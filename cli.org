@@ -1,5 +1,6 @@
 * CLI Cheatsheet
 
+- Clear terminal shortcut: ~C-l~
 - Find all symlinks to a given file
   src_bash{find -L /dir/to/start -samefile /tmp/orig.file}
   [[https://stackoverflow.com/questions/4532241/linux-find-all-symlinks-of-a-given-original-file-reverse-readlink][Source SO Post]]
