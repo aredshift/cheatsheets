@@ -7,6 +7,14 @@
   File: src_bash{ln -sf /a/new/path files}
   Directory: src_bash{ln -sfn /a/new/path dir}
   [[https://unix.stackexchange.com/a/152000][Source SO Post]]
+- List all commands: src_bash{compgen -c}
+  [[https://www.gnu.org/software/bash/manual/bash.html#index-compgen][Man page]]
+- Read man page for shell builtins
+  - Bash: src_bash{help}
+  - Zsh: src_zsh{run-help}
+
+- Fuzzyfind commands on your system and open their manpage
+  src_bash{compgen -c | fzf | xargs man}
 
 
 
