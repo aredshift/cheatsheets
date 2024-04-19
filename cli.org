@@ -26,4 +26,5 @@
 
 
 * Learning resources
-- [[https://www.youtube.com/watch?v=IYZDIhfAUM0][Become a Shell Wizard in ~12 mins (by CODE IS EVERYTHING)]] 
+- [[https://www.youtube.com/watch?v=IYZDIhfAUM0][Become a Shell Wizard in ~12 mins (by CODE IS EVERYTHING)]]
+
