@@ -1,3 +1,33 @@
+** Note about parent revision selections in ZSH
+Many git revision slections use the symbol ~^~ to resolve to the parent of the specified commit. ([[https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection][Docs]])
+
+in ZSH you'll have to enclose strings with ~^~ in quotes if EXTENDED_GLOB is enabled.
+
+For example, this command:
+#+begin_src zsh
+  git reset HEAD^
+#+end_src
+
+Will result in an error with the output: ~zsh: no matches found: HEAD^~
+
+You can instead replace it with this command:
+
+#+begin_src zsh
+  git reset 'HEAD^'
+#+end_src
+
+Note the lack of double-quotes, which will be interpolated by ZSH.
+
+You can check if the EXTENDED_GLOB option is enabled with the command:
+#+begin_src zsh
+  set -o | grep extendedglob
+#+end_src
+
+And can disable it like so:
+#+begin_src zsh
+  unsetopt extendedglob
+#+end_src
+
 ** Revert a commit but keep the changes
 
 #+begin_src bash
