@@ -23,6 +23,19 @@
 - Fuzzyfind commands on your system and open their manpage
   src_bash{compgen -c | fzf | xargs man}
 
+** How to access a "nested" variable ("variable pointers", indirect expansion)
+Say you are given a variable that contains the name of another variable, whose contents you are interested in. Eg.:
+#+begin_src bash
+  VAR_ONE="this is the value I want"
+  VAR_TWO="VAR_ONE"
+#+end_src
+
+In this (contrived) example, we want to access the value of ~VAR_ONE~ but say we are only able to directly expand ~VAR_TWO~. In order to access ~VAR_ONE~ in this way, we use the "indirect expansion" syntax (notice the "!"):
+#+begin_src bash
+  echo "${!VAR_TWO}" # prints "this is the value I want"
+#+end_src
+[[https://stackoverflow.com/a/14204692/21154015][SO Post]]
+
 
 
 * Learning resources
