@@ -23,6 +23,18 @@
 - Fuzzyfind commands on your system and open their manpage
   src_bash{compgen -c | fzf | xargs man}
 
+** Patterns
+- Write a HEREDOC to file:
+  #+begin_src bash
+    cat << EOF > /tmp/yourfilehere
+    These contents will be written to the file.
+            This line is indented.
+    EOF
+  #+end_src
+  - Source:[[https://stackoverflow.com/a/2954835/21154015][SO Post]]
+  - Source:[[https://tldp.org/LDP/abs/html/here-docs.html][TLDP-Advanced Bash Scripting Guide]]
+  - Source:[[https://www.gnu.org/software/bash/manual/html_node/Redirections.html#Here-Documents][GNU Bash reference]]
+
 ** How to access a "nested" variable ("variable pointers", indirect expansion)
 Say you are given a variable that contains the name of another variable, whose contents you are interested in. Eg.:
 #+begin_src bash
