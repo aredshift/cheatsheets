@@ -8,3 +8,14 @@ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3
 # non-interactive and 10 years expiration
 openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"
 #+end_src
+
+* Proper permissions for SSH files
+[[https://superuser.com/a/215506][SE Post]]
+| Item        | Sample            |       Numeric | Bitwise    |
+|-------------+-------------------+---------------+------------|
+| SSH folder  | ~/.ssh            |           700 | drwx------ |
+| Public Key  | ~/.ssh/id_rsa.pub |           644 | -rw-r--r-- |
+| Private Key | ~/.ssh/id_rsa     |           600 | -rw------- |
+| Config      | ~/.ssh/config     |           600 | -rw------- |
+| Home folder | ~                 | 755 (at most) | drwxr-xr-x |
+
