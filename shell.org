@@ -4,7 +4,10 @@
 - Clear terminal shortcut: ~C-l~
 - Open your current command in your $EDITOR: ~C-x C-e~
   - Remember to save + close
-
+- Cut and paste a command without executing it:
+  ~C-u~ (remove and add to kill ring)
+  ~C-y~ (yank from kill ring)
+  [[https://unix.stackexchange.com/a/140744][SO Post]]
 
 ** Commands
 - Find all symlinks to a given file
