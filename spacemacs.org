@@ -1,12 +1,63 @@
-- Reload .spacemacs config: ~SPC f e R~
-- Go to transient zoom mode: ~SPC z x~
-  Note: only affects font size for a buffer
+* Advice from the manual (11 Help)
+If you are looking for a certain feature, but don’t know what it is called or where to look, we recommend three methods. First, try apropos commands, then try searching the manual index, then look in the FAQ and the package keywords, and finally try listing external packages.
 
 * Dired
 - Enter: ~C-x d~
 
-* Code
-- Comment selected lines: ~M-;~
-[[https://github.com/redguardtoo/evil-nerd-commenter?tab=readme-ov-file#evilnc-comment-or-uncomment-lines-recommended][evil-nerd-commenter package docs]]
+* Important concepts
+** Key (sequence)
+** Function
+** Variable
+** Command
+** Mode
+*** Major mode
+*** Minor mode
+** Frame
+** Window
+** Buffer
+* Important key (sequences)
 
+** Help prefix: ~F1~ or ~C-h~ or sometimes ~?~
+From the manual (11 Help)
+#+begin_quote
+C-h or F1 mean “help” in various other contexts as well. For instance, you can type them after a prefix key to view a list of the keys that can follow the prefix key. (You can also use ? in this context. A few prefix keys don’t support C-h or ? in this way, because they define other meanings for those inputs, but they all support F1.) 
+#+end_quote
+** Describe a key (sequence): ~C-h k~
+(cmd:describe-key)
 
+See also:
+*** Describe function: ~C-h f~
+*** Describe variable: ~C-h v~
+*** Describe command: ~C-h x~
+*** Describe symbol (function/variable/face): ~C-h o~
+** Abort: ~C-g~
+  useful if you can't figure out how to exit
+
+** Quit a window/buffer: ~q~
+  Can also sometimes be (cmd:evil-record-macro)
+
+** Search commands: ~M-x~
+  In spacemacs: (cmd:spacemacs/helm-M-x-fuzzy-matching)
+  In vanilla emacs: (cmd:execute-extended-command)
+
+ See also:
+*** Non-iterative search: ~C-h a~
+   Run a non-iterative search on commands, showing results in a separate window.
+*** Apropos commands
+- Search functions and variables: ~M-x apropos~
+- Search user-customizable variables: ~M-x apropos-user-option~
+
+And more - see manual 11.4 Apropos
+*** Packages
+- Search package keywords: ~C-h p~
+- Describe package: ~C-h P~
+** Browse all top-level keys: ~SPC h k~
+  (cmd:which-key-show-top-level)
+
+** Edit .spacemacs config: ~SPC f e d~
+** Reload .spacemacs config: ~SPC f e R~
+** Go to transient zoom mode: ~SPC z x~
+  Note: only affects font size for a buffer
+
+** Comment selected lines: ~M-;~ or ~SPC ;~
+  [[https://github.com/redguardtoo/evil-nerd-commenter?tab=readme-ov-file#evilnc-comment-or-uncomment-lines-recommended][evil-nerd-commenter package docs]]
